@@ -1,18 +1,18 @@
 img {
-  margin-top: 50px;
-  width: 303px;
+  margin-top: 20px;
+  width: 200px;
   padding: 5px;
+  overflow: hidden;
 }
-.container {
-  width: 300px;
-  height: 500px;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  box-shadow: 5px 7px 50px 5px;
+.card {
+  margin: auto;
+  top: 2rem;
+  width: 70%;
   border-radius: 10%;
-  background-color: beige;
+  padding: 10px;
+  box-shadow: 5px 10px 20px 3px;
 }
-.btn {
-  height: 40px;
+body {
+  background: #e2e1e0;
+  margin: 5px 5px 5px 5px;
 }

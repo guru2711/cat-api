@@ -7,7 +7,7 @@ async function getcat() {
   let b = await a.json();
   let c = await b.url;
   console.log(c);
-  const cat = document.querySelector(".cat");
-  cat.innerHTML = `<img src="${c}"/>`;
+  const cat = document.querySelector(".card-img-top");
+  cat.setAttribute("src", `${c}`);
   cat.appendChild(cat);
 }
